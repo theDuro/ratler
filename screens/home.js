@@ -43,18 +43,18 @@ export default function home({ navigation }) {
   const test1 = [
     {
         id: '1',
-        question: 'Kto jest jednym z założycieli Microsoft?',
+        question: 'Kto jest mistrzem ufc w 93 kg',
         answers: [
           {
-          content: "Bill Gates",
+          content: "Jan Błachowicz",
           isCorrect: "true"
           },
           {
-          content: "Steve Jobs",
+          content: "Thiago Santos",
           isCorrect: "false"
           },
           {
-          content: "Elon Musk",
+          content: "Dominick Reyes",
           isCorrect: "false"
           },
           {
@@ -66,22 +66,22 @@ export default function home({ navigation }) {
     },
         {
         id: '2',
-        question: 'Jaki był limit pamięci w MS-DOS?:',
+        question: 'ile jest pasów w bjj',
         answers: [
           {
-          content: "1024KB",
+          content: "1",
           isCorrect: "false"
           },
           {
-          content: "640KB",
+          content: "5",
           isCorrect: "true"
           },
           {
-          content: "16MB",
+          content: "3",
           isCorrect: "false"
           },
           {
-          content: "128MB",
+          content: "2",
           isCorrect: "false"
           },
         ],
@@ -89,22 +89,22 @@ export default function home({ navigation }) {
     },
         {
         id: '3',
-        question: 'Jaką ilość pamięci maksymalnie jest w systemie 32bitowym?',
+        question: 'w jakiej wadze wlaczył Gołota',
         answers: [
           {
-          content: "4GB",
+          content: "cieżkiej",
           isCorrect: "true"
           },
           {
-          content: "2GB",
+          content: "lekkiej",
           isCorrect: "false"
           },
           {
-          content: "8GB",
+          content: "piurkowej",
           isCorrect: "false"
           },
           {
-          content: "16GB",
+          content: "muszej",
           isCorrect: "false"
           },
         ],
@@ -180,22 +180,22 @@ export default function home({ navigation }) {
     const test3 = [
     {
         id: '1',
-        question: 'Jaką powierzchnię ma Watykan?',
+        question: 'spadek wartosci pieniadza nazywamy',
         answers: [
           {
-          content: "1km^2",
+          content: "inflacją",
           isCorrect: "true"
           },
           {
-          content: "20km^2",
+          content: "deflacja",
           isCorrect: "false"
           },
           {
-          content: "5km^2",
+          content: "recesja",
           isCorrect: "false"
           },
           {
-          content: "10km^2",
+          content: "depresja",
           isCorrect: "false"
           },
         ],
@@ -203,22 +203,22 @@ export default function home({ navigation }) {
     },
         {
         id: '2',
-        question: 'Jakie miasto jest stolicą USA?',
+        question: 'ludzie grający na spadkach giełdynazywamy?',
         answers: [
           {
-          content: "Waszyngton",
+          content: "bykami",
           isCorrect: "true"
           },
           {
-          content: "Nowy Jork",
+          content: "niedziwiedzimi",
           isCorrect: "false"
           },
           {
-          content: "Miami",
+          content: "świniami",
           isCorrect: "false"
           },
           {
-          content: "San Francisco",
+          content: "końmi",
           isCorrect: "false"
           }
         ],
@@ -226,18 +226,18 @@ export default function home({ navigation }) {
     },
         {
         id: '3',
-        question: 'Na jakim kontynencie znajduje się państwo Oman?',
+        question: 'od kiedy dolarprzestał miec pokrycie w złocie',
         answers: [
           {
-          content: "Afryka",
+          content: "1913",
           isCorrect: "true"
           },
           {
-          content: "Azja",
+          content: "1928",
           isCorrect: "false"
           },
           {
-          content: "Europa",
+          content: "1922",
           isCorrect: "false"
           }
         ],
@@ -248,14 +248,18 @@ export default function home({ navigation }) {
     const test4 = [
     {
         id: '1',
-        question: 'Czy wirusy zaliczamy do organizmów żywych?',
+        question: 'ile izotopów ma wodór ?',
         answers: [
           {
-          content: "Tak",
+          content: "3",
           isCorrect: "true"
           },
           {
-          content: "Nie",
+          content: "2",
+          isCorrect: "false"
+          },
+          {
+          content: "1",
           isCorrect: "false"
           }
         ],
@@ -263,22 +267,22 @@ export default function home({ navigation }) {
     },
         {
         id: '2',
-        question: 'Ile nóg ma stonoga?',
+        question: 'ile wynosi przyspieszenie ziemskie',
         answers: [
           {
-          content: "8",
+          content: "10 m/s",
           isCorrect: "false"
           },
           {
-          content: "100",
+          content: "10 m/s",
           isCorrect: "false"
           },
           {
-          content: "24",
+          content: "9.81 m/s^2",
           isCorrect: "true"
           },
           {
-          content: "16",
+          content: "9.81 m/s",
           isCorrect: "false"
           },
         ],
@@ -286,22 +290,22 @@ export default function home({ navigation }) {
     },
     {
         id: '3',
-        question: 'Jakie jest najszybsze zwierzę lądowe?',
+        question: 'ile warzy atom hellu?',
         answers: [
           {
-          content: "Gepard",
+          content: "4u",
           isCorrect: "true"
           },
           {
-          content: "Struś",
+          content: "8u",
           isCorrect: "false"
           },
           {
-          content: "Antylopa",
+          content: "3u",
           isCorrect: "false"
           },
           {
-          content: "Tygrys",
+          content: "6u",
           isCorrect: "false"
           },
         ],
@@ -314,7 +318,7 @@ export default function home({ navigation }) {
   const testList = [
     {
       id: '1',
-      title: 'Informatyka',
+      title: 'Sporty Walki',
     },
     {
       id: '2',
@@ -322,11 +326,11 @@ export default function home({ navigation }) {
     },
     {
       id: '3',
-      title: 'Geografia',
+      title: 'Ekonomia',
     },
     {
       id: '4',
-      title: 'Biologia',
+      title: 'Fzizyka',
     },
   ];
 
